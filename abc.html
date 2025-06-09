@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Gallery - Steve Hair Pearl</title>
+    <link rel="stylesheet" href="style2.css" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #111;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Steve Hair Pearl Video Gallery</h1>
+    </header>
+
+    <div class="gallery-container">
+        <div class="video-grid">
+            <!-- Sample Videos: Add as many as needed -->
+            <video controls autoplay muted loop>
+                <source src="video2/01.mp4" type="video/mp4">
+                <source src="video2/01.webm" type="video/webm">
+                <source src="video2/01.ogv" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/a.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/aa.mp4" type="video/mp4">
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/b.mp4" type="video/mp4">
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/c.mp4" type="video/mp4">
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/d.mp4" type="video/mp4">
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/e.mp4" type="video/mp4">
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/f.mp4" type="video/mp4">
+            </video>
+
+            <video controls autoplay muted loop>
+                <source src="video2/g.mp4" type="video/mp4">
+            </video>
+
+            <!-- Add more <video> blocks as needed following the same pattern -->
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Steve Hair Pearl. All rights reserved.
+    </footer>
+
+</body>
+</html>

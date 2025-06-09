@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Hair Pearl - Video Gallery</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        /* Basic enhancements; You can move this to style2.css */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery-item {
+            flex: 1 1 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gallery-item p {
+            padding: 15px;
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .feature-img {
+            margin-top: 40px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #eee;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Steve Hair Pearl</h1>
+        <p>Your Destination for Stunning Hairstyles</p>
+    </header>
+
+    <div class="container">
+        <h2>Video Gallery</h2>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="imag/57.jpg" alt="Hair Style 1">
+                <p>Hair Styles <br>Steve Hair Pearl</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imag/35.jpg" alt="Hair Style 2">
+                <p>Elegant Braids <br>Latest Styles</p>
+            </div>
+            <!-- Add more gallery items as needed -->
+        </div>
+
+        <div class="feature-img">
+            <img src="imag/35.jpg" alt="Featured Style">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Steve Hair Pearl. All rights reserved.
+    </footer>
+
+</body>
+</html>
